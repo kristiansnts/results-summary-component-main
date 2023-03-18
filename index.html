@@ -7,41 +7,60 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Results summary component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  Your Result
-  76
-  of 100
+  <div class="card row">
+    <section class="container col">
 
-  Great
-  You scored higher than 65% of the people who have taken these tests.
+      <p class="section-title">Your Result</p>
   
-  Summary
-
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
+      <div class="section-score">
+        <h1>76</h1>
+        <p>of 100</p>
+      </div>
+    
+      <h2 class="section-result">Great</h2>
+      <p class="section-desc">You scored higher than 65% of the people who have taken these tests.</p>
+      
+    </section>
   
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    <section class="container col">
+  
+      <p class="section-title">Summary</p>
+  
+     <ul>
+      
+      <li>
+        <img src="assets/images/icon-reaction.svg" alt="reaction 60x60">
+        <p>Reaction</p>
+        <p><strong>80</strong> / 100</p>
+      </li>
+    
+      <li>
+        <img src="assets/images/icon-memory.svg" alt="memory 60x60">
+        <p>Memory</p>
+        <p><strong>92</strong> / 100</p>
+      </li>
+    
+      <li>
+        <img src="assets/images/icon-verbal.svg" alt="verbal 60x60">
+        <p>Verbal</p>
+        <p><strong>61</strong> / 100</p>
+      </li>
+    
+      <li>
+        <img src="assets/images/icon-visual.svg" alt="visual 60x60">
+        <p>Visual</p>
+        <p><strong>72</strong> / 100</p>
+      </li>
+  
+     </ul>
+    
+      <a href="#">Continue</a>
+  
+    </section>
   </div>
+  
 </body>
 </html>
